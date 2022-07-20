@@ -37,6 +37,173 @@
     <meta name="theme-color" content="#ffffff">
 
 
+
+    <!-- For FAQs -->
+<!-- <script>document.getElementsByTagName("html")[0].className += " js";</script>
+
+  <link rel="stylesheet" href="assets/css/style.css"> -->
+
+<!-- End FAQs -->
+
+
+    <!-- ===============================================-->
+    <!--    Stylesheets-->
+    <!-- ===============================================-->
+
+
+<!-- For FAQs -->
+<!-- <script src="assets/js/util.js"></script> 
+<script src="assets/js/main.js"></script>  -->
+
+<!-- End FAQs -->
+
+
+<!-- FOR APP DEMO  -->
+
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets_appland/images/favicon.png" type="image/png">
+        
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="assets_appland/css/animate.css">
+        
+    <!--====== lineicons CSS ======-->
+    <link rel="stylesheet" href="assets_appland/css/lineicons.css">
+        
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets_appland/css/bootstrap.min.css">
+    
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets_appland/css/default.css">
+    
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets_appland/css/style.css">
+
+    <!-- starting of style for write-delete-rewrite -->
+    <!-- https://codepen.io/hariharker/pen/QNbyjM -->
+
+
+        <style type="text/css">#fragment2
+    {
+      margin-top:-20px;
+    }
+    #fragment1
+    {
+      width: 25em;
+                white-space:nowrap;
+                overflow:hidden;
+                -webkit-animation: frag1type 10s steps(50, end) 0s infinite;
+                animation: frag1type 10s steps(50, end) 0s infinite;
+    }
+    @keyframes frag1type{
+                
+                from { width: 0;}
+                37%{width:25em;}
+                49%{width:0;}
+                100%{width:0;}
+            }
+
+            @-webkit-keyframes frag1type{
+                from { width: 0;}
+                37%{width:25em;}
+                49%{width:0;}
+                100%{width:0;}
+            }
+    #fragment2
+    {
+      opacity: 0;
+                width: 25em;
+                white-space:nowrap;
+                overflow:hidden;
+                -webkit-animation: frag2type 10s steps(50, end) 5s infinite;
+
+                animation: frag2type 10s steps(50, end) 5s infinite;
+    }
+    @keyframes frag2type{
+                
+                from { width: 0; opacity:1; }
+                37%{width:25em;opacity:1; }
+                49%{width:0;opacity:1; }
+                100%{width:0;opacity:1; }
+            }
+
+            @-webkit-keyframes frag2type{
+                from { width: 0; opacity:1; }
+                37%{width:25em;opacity:1; }
+                49%{width:0;opacity:1; }
+                100%{width:0;opacity:1; }
+            }</style>
+    <!-- ending of style for write-delete-rewrite -->
+
+     <!-- Footer style messup correction -->
+     <style>
+     #page-container {
+      position: relative;
+      min-height: 100vh;
+    }
+
+    #content-wrap {
+      padding-bottom: 2.5rem;    /* Footer height */
+    }
+
+    #footer {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      height: 2.5rem;            /* Footer height */
+    }
+
+    </style>
+
+    <!-- starting of style for FAQs-->
+
+    <style>
+    .accordion1 {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+    }
+
+    .active1, .accordion1:hover {
+      background-color: #ccc;
+    }
+
+    .accordion1:after {
+      content: '\002B';
+      color: #777;
+      font-weight: bold;
+      float: right;
+      margin-left: 5px;
+    }
+
+    .active1:after {
+      content: "\2212";
+    }
+
+    .panel1 {
+      padding: 0 18px;
+      background-color: white;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.2s ease-out;
+    }
+</style>
+
+
+
+
+
+
     <!-- ===============================================-->
     <!--    Stylesheets-->
     <!-- ===============================================-->
@@ -65,8 +232,19 @@
         <div class="container"><a class="navbar-brand d-flex align-items-center fw-bold fs-2" href="#"><img style="max-width:200px" class="d-inline-block me-3" src="assets/img/icons/logo.svg" alt="" /></a>
           <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
+
             <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
-              <li class="nav-item"><a class="nav-link" href="#contact">Contact us</a></li>
+              <!--                       <li class="nav-item" style="user-select: text;"><a class="nav-link" href="#contact" style="user-select: text;">Features</a></li> -->
+            
+                      <li class="nav-item" style="user-select: text;"><a class="nav-link" href="#features_showcase" style="user-select: text;">How it works</a></li>
+
+                       <li class="nav-item" style="user-select: text;"><a class="nav-link" href="#testimonial" style="user-select: text;">FAQ</a></li>
+
+                      <li class="nav-item" style="user-select: text;"><a class="nav-link" href="#blogs" style="user-select: text;">Blog</a></li>
+
+                      <li class="nav-item" style="user-select: text;"><a class="nav-link" href="#waitlist" style="user-select: text;">Join Waitlist</a></li>
+
+                      <li class="nav-item" style="user-select: text;"><a class="nav-link" href="#contact" style="user-select: text;">Contact us</a></li>
             </ul>
           </div>
         </div>
@@ -107,58 +285,15 @@
               <p>Below are some of the key features we offer, please install the app to find out more.</p>
             </div>
           </div>
+
           <div class="row justify-content-center h-100 pt-7 g-4">
-            <div class="col-sm-9 col-md-4">
-              <div class="card h-100 w-100 shadow rounded-lg p-3 p-md-2 p-lg-3 p-xl-5">
-                <div class="card-body text-center text-md-start">
-                  <div class="py-3"><img class="img-fluid" src="assets/img/illustrations/search.png" height="90" alt="" /></div>
-                  <div class="py-3">
-                    <h4 class="fw-bold card-title">Search</h4>
-                    <p class="card-text">Smart on-device search to fetch the relevant documents and reports from your medical history through keywords.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-9 col-md-4">
-              <div class="card h-100 w-100 shadow rounded-lg p-3 p-md-2 p-lg-3 p-xl-5">
-                <div class="card-body text-center text-md-start">
-                  <div class="py-3"><img class="img-fluid" src="assets/img/illustrations/tracking.png" height="90" alt="" /></div>
-                  <div class="py-3">
-                    <h4 class="fw-bold card-title">Tracking</h4>
-                    <p class="card-text">Track and organise all your and your family healthcare information, medicines, expenditure,  all in one place.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-9 col-md-4">
-              <div class="card h-100 w-100 shadow rounded-lg p-3 p-md-2 p-lg-3 p-xl-5">
-                <div class="card-body text-center text-md-start">
-                  <div class="py-3"><img class="img-fluid" src="assets/img/illustrations/details-info.png" height="90" alt="" /></div>
-                  <div class="py-3">
-                    <h4 class="fw-bold card-title">Test Reports</h4>
-                    <p class="card-text">Visualize the history of your biomarkers and parameters through a simple upload of images of your test reports.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-9 col-md-4">
-              <div class="card h-100 w-100 shadow rounded-lg p-3 p-md-2 p-lg-3 p-xl-5">
-                <div class="card-body text-center text-md-start">
-                  <div class="py-3"><img class="img-fluid" src="assets/img/illustrations/alerts.png" height="90" alt="" /></div>
-                  <div class="py-3">
-                    <h4 class="fw-bold card-title">Reminders</h4>
-                    <p class="card-text">Get automatic reminders for hospital visits, buy/refill recurring medicines based on your prescriptions.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div class="col-sm-9 col-md-4">
               <div class="card h-100 w-100 shadow rounded-lg p-3 p-md-2 p-lg-3 p-xl-5">
                 <div class="card-body text-center text-md-start">
                   <div class="py-3"><img class="img-fluid" src="assets/img/illustrations/analytics.png" height="90" alt="" /></div>
                   <div class="py-3">
                     <h4 class="fw-bold card-title">Analytics</h4>
-                    <p class="card-text">Get insights into any abnormal patterns in your data. Our analytics predict the onset/recurrence of diseases in their early stages of progression.</p>
+                    <p class="card-text">Get insights into any abnormal patterns in your data. Personalized risk assessments help identify risk factors leading to diagnosis.</p>
                   </div>
                 </div>
               </div>
@@ -174,13 +309,112 @@
                 </div>
               </div>
             </div>
-          <!-- 
-            <div class="text-center py-4">
-              <button class="btn btn-lg btn-outline-primary rounded-pill" type="submit">Learn more </button>
+            <div class="col-sm-9 col-md-4">
+              <div class="card h-100 w-100 shadow rounded-lg p-3 p-md-2 p-lg-3 p-xl-5">
+                <div class="card-body text-center text-md-start">
+                  <div class="py-3"><img class="img-fluid" src="assets/img/illustrations/details-info.png" height="90" alt="" /></div>
+                  <div class="py-3">
+                    <h4 class="fw-bold card-title">Contribute</h4>
+                    <p class="card-text">Be part of the Deathless DAO and contribute to the large scale community based biomarker discovery research</p>
+                  </div>
+                </div>
+              </div>
             </div>
-          --> 
+
+
+<!-- HOW IT WORKS  -->
+
+        <div class="container-lg" style="user-select: text;">
+          <div class="row justify-content-center" style="user-select: text;">
+            <div class="col-3 text-center" style="user-select: text;">
+              <h2 class="fw-bold" style="user-select: text;">How it works?</h2>
+              <hr class="w-25 mx-auto text-dark" style="height: 2px; user-select: text;">
+            </div>
           </div>
         </div>
+        </div>
+      </section>
+
+
+          <!-- APP DEMO -->
+
+<section id=features_showcase class="about-area pt-70 pb-120">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-image mt-50 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="about-shape"></div>
+                        <img class="app" src="assets_appland/images/home_biologicalage.png" alt="app">
+                    </div> <!-- about image -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="section-title">
+                            <h3 class="title">Learn True Age</h3>
+                            <p class="text">Order a blood test for at home collection or upload the reports with one click to learn your Age</p>
+                        </div> <!-- section title -->
+                        <a href="#waitlist" rel="nofollow" class="main-btn">Get Full Version</a>
+                    </div> <!-- about content -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+
+
+    <section id="about" class="about-area pt-70 pb-120">
+        <div class="container", style = "top:-80px">
+            <div class="row align-items-center">
+               
+                <div class="col-lg-6">
+                    <div class="about-content mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="section-title">
+                              <h3 class="title">Track Habits</h3>
+                              <p class="text">Track all your health habits through wearablest at One place</p>
+                        </div> <!-- section title -->
+                        <a href="#waitlist" rel="nofollow" class="main-btn">Get Full Version</a>
+                    </div> <!-- about content -->
+                </div>
+
+             <div class="col-lg-6">
+                    <div class="about-image mt-50 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="about-shape"></div>
+                        <img class="app" src="assets_appland/images/track_habits.png" alt="app">
+                    </div> <!-- about image -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    
+  <section id="about" class="about-area pt-70 pb-120">
+          <div class="container", style = "top:-80px">
+              <div class="row align-items-center">
+                  <div class="col-lg-6">
+                      <div class="about-image mt-50 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                          <div class="about-shape"></div>
+                          <img class="app" src="assets_appland/images/intake1.png" alt="app">
+                      </div> <!-- about image -->
+                  </div>
+                  <div class="col-lg-6">
+                      <div class="about-content mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                          <div class="section-title">
+                           <h3 class="title">Learn Correlations</h3>
+                            <p class="text">Track temporal impact of your habits like exercising, intermittent fasting, coffee, alcohol intake on the sleep, energy efficiencies and the organ specific age acceleration/deceleration</p>
+                          </div> <!-- section title -->
+                          <a href="#waitlist" rel="nofollow" class="main-btn">Get Full Version</a>
+                      </div> <!-- about content -->
+                  </div>
+              </div> <!-- row -->
+          </div> <!-- container -->
+      </section>
+        <!--/.bg-holder-->
+
+      </section>
+
+
+
+
+
+
       </section>
       <section class="py-6 py-lg-8">
         <div class="bg-holder" style="background-position:right bottom;background-size:auto;margin-top:50px;">
@@ -192,7 +426,7 @@
             <div class="col-md-6 text-center text-md-start">
               <h2 class="fw-bold lh-base">Anonymised Health Analytics</h2>
               <hr class="text-dark mx-auto mx-md-0" style="height:2px;width:50px" />
-              <p class="pt-3">Once you upload your prescription and any of the blood test reports to the application, we remove any personal information and sensitive information from the records. Aggregated details regarding various biomarkers and diseases are used to provide insights into any abnormal patterns in your recent medical history.</p>
+              <p class="pt-3">Once you upload your blood test reports or connect your EHR, we remove any personal information and sensitive information from the records. Aggregated details regarding various biomarkers and diseases are used to provide insights into your age progression and recommendations for longevity.</p>
             <!--  
               <div class="py-3">
                 <button class="btn btn-lg btn-outline-primary rounded-pill" type="submit">Learn more </button>
@@ -205,6 +439,160 @@
 
         <br>
         <br><hr><br>
+
+
+
+
+
+      <section class="py-8" id="testimonial">
+        <div class="container">
+          <div class="bg-holder z-index-1" style="background-image:url(assets/img/illustrations/dot.png);background-position:right top;background-size:auto;margin-left:-30px;margin-top:10px;filter:contrast(1.5);">
+          </div>
+      
+          <div class="bg-holder z-index-1" style="background-image:url(assets/img/illustrations/dot-2.png);background-position:left bottom;background-size:auto;margin-left:-35px;margin-top:-65px;filter:contrast(1.5);">
+          </div>
+      
+          <div class="carousel slide" id="carouselExampleDark" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <div class="row h-100">
+                  <div class="col-12">
+                    <div class="card text-white bg-primary-gradient">
+                      <div class="card-body p-4 p-md-4 p-lg-7">
+                        <h2 class="fw-bold text-white text-center">FAQ</h2>
+                        <hr class="mx-auto" style="height:2px;width:50px" />
+                        <div class="d-md-flex align-items-md-center mt-5 text-center text-md-start"><img class="img-fluid me-4 me-md-3 me-lg-4" src="assets/img/gallery/biological_age.webp" width="100" alt="" />
+                          <div class="w-md-25 my-3">
+                            <h5 class="mb-0 fw-medium text-white">What is Biological age?</h5>
+                            <!-- <p class="fw-normal mb-0">Founder Circle</p> -->
+                          </div>
+                          <div class="w-md-75">
+                            <p class="card-text ms-md-5" style ="color:floralwhite;">Chronological age is defined by years from birth; biological age is defined by years from death. In other words, the "birthday" based chronological age says how old you are while biological age says how young you are.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <div class="row h-100">
+                  <div class="col-12">
+                    <div class="card text-white bg-primary-gradient">
+                      <div class="card-body p-4 p-md-4 p-lg-7">
+                        <h2 class="fw-bold text-white text-center">FAQ</h2>
+                        <hr class="mx-auto" style="height:2px;width:50px" />
+                        <div class="d-md-flex align-items-md-center mt-5 text-center text-md-start"><img class="img-fluid me-4 me-md-3 me-lg-4" src="assets/img/gallery/age_calculation.jpg" width="100" alt="" />
+                          <div class="w-md-25 my-3">
+                            <h5 class="mb-0 fw-medium text-white">How is Biological age calculated?</h5>
+                            <!-- <p class="fw-normal mb-0">UI/UX Designer</p> -->
+                          </div>
+                          <div class="w-md-75">
+                            <p class="card-text ms-md-5" style ="color:floralwhite;"> Our ML based clock is trained on large open and closed datasets to track and mesaure age progression from various biomarkers. These are then validated using kaplan meir curves and cox-hazard proportional survival models.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row h-100">
+                  <div class="col-12">
+                    <div class="card text-white bg-primary-gradient">
+                      <div class="card-body p-4 p-md-4 p-lg-7">
+                        <h2 class="fw-bold text-white text-center">FAQ</h2>
+                        <hr class="mx-auto" style="height:2px;width:50px" />
+                        <div class="d-md-flex align-items-md-center mt-5 text-center text-md-start"><img class="img-fluid me-4 me-md-3 me-lg-4" src="assets/img/gallery/research_enagement.jpg" width="100" alt="" />
+                          <div class="w-md-25 my-3">
+                            <h5 class="mb-0 fw-medium text-white" style = "color:gray;"> How do I engage in the research?</h5>
+                            <!-- <p class="fw-normal mb-0">Web Designer</p> -->
+                          </div>
+                          <div class="w-md-75">
+                            <p class="card-text ms-md-5" style ="color:floralwhite;">Download the app, get tested and start your age optimization journey. You can choose to share you anonymized data for reserach and earn $HEAL and $LIFE of Deathless DAO</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-4 flex-center">
+              <div class="col-4 col-sm-5 text-end position-relative z-index-2"><a class="carousel-control-prev carousel-icon z-index-2" href="#carouselExampleDark" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span><span class="visually-hidden">Previous</span></a></div>
+              <div class="col-auto position-relative z-index-2">
+                <ol class="carousel-indicators">
+                  <li class="active" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"></li>
+                  <li data-bs-target="#carouselExampleDark" data-bs-slide-to="1"></li>
+                  <li data-bs-target="#carouselExampleDark" data-bs-slide-to="2"></li>
+                </ol>
+              </div>
+              <div class="col-4 col-sm-5 position-relative z-index-2"><a class="carousel-control-next carousel-icon z-index-2" href="#carouselExampleDark" role="button" data-bs-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span class="visually-hidden">Next</span></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+      <section id = "blogs">
+        <div class="bg-holder" style="background-image:url(assets/img/illustrations/article-bg.png);background-position:right center;background-size:auto;">
+        </div>
+        
+        <div class="container-lg">
+          <div class="bg-holder" style="background-image:url(assets/img/illustrations/dot-2.png);background-position:left top;background-size:initial;margin-top:120px;margin-left:-35px;">
+          </div>
+        
+          <div class="row flex-center">
+            <div class="col-auto text-center">
+              <h2 class="fw-bold">Check out our latest articles</h2>
+              <hr class="mx-auto text-dark" style="height:2px;width:50px" />
+            </div>
+          </div>
+          <div class="row h-100 justify-content-center pt-6">
+            <div class="col-12 col-sm-9 col-md-4 mt-4">
+              <div class="card h-100 rounded-3 shadow"><img src="assets/img/gallery/coffee_sleep_r.png" alt="" />
+                <div class="card-body p-4 text-center text-md-start">
+                  <h5 class="fw-bold">How does coffee affect sleep?</h5>
+                  <p class="card-text">Do you remember grabbing that cup of coffee while pulling an all-nighter before your...</p><a class="stretched-link text-decoration-none" href="#" role="button">Read more
+                    <svg class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+                    </svg></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-9 col-md-4 mt-4">
+              <div class="card h-100 rounded-3 shadow"><img src="assets/img/gallery/fasting_energy_r.png" alt="" />
+                <div class="card-body p-4 text-center text-md-start">
+                  <h5 class="fw-bold">Fasting vs Energy levels?</h5>
+                  <p class="card-text">Have you ever tried intermittent fasting and felt this is not the right longeivty protocol...</p><a class="stretched-link text-decoration-none" href="#" role="button">Read more
+                    <svg class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+                    </svg></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-9 col-md-4 mt-4">
+              <div class="card h-100 rounded-3 shadow"><img src="assets/img/gallery/hallmarks_aging_r.png" alt="" />
+                <div class="card-body p-4 text-center text-md-start">
+                  <h5 class="fw-bold">Hall marks of Aging</h5>
+                  <p class="card-text">Aging can be considered the root cause of all the diseases. Thanks to decades of research...</p><a class="stretched-link text-decoration-none" href="#" role="button">Read more
+                    <svg class="bi bi-arrow-right-short" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"></path>
+                    </svg></a>
+                </div>
+              </div>
+            </div>
+            <div class="text-center pt-4 z-index-2">
+              <button class="btn btn-lg btn-outline-primary rounded-pill z-index-2 hover-top" type="submit">View all</button>
+            </div>
+          </div>
+        </div>
+      </section>
+   
+
+
+
+
         
         <div class="container" id="waitlist">
           <div class="row g-xl-0 align-items-center">
@@ -223,6 +611,33 @@
         <!--/.bg-holder-->
 
       </section>
+
+
+
+
+      <!--====== Jquery js ======-->
+    <script src="assets_appland/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets_appland/js/vendor/modernizr-3.7.1.min.js"></script>
+    
+    <!--====== Bootstrap js ======-->
+    <script src="assets_appland/js/popper.min.js"></script>
+    <script src="assets_appland/js/bootstrap.min.js"></script>
+    
+    
+    <!--====== WOW js ======-->
+    <script src="assets_appland/js/wow.min.js"></script>
+    
+    
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets_appland/js/jquery.easing.min.js"></script>
+    <script src="assets_appland/js/scrolling-nav.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="assets_appland/js/main.js"></script>
+
+
+
+
 <!--
       <section class="py-8" id="testimonial">
         <div class="container">
